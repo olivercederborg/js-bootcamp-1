@@ -17,6 +17,8 @@ const randomNumber = (min, max) => {
 	return Math.floor(Math.random() * max) + min
 }
 
+const test = null
+
 document.addEventListener('DOMContentLoaded', () => {
 	quoteElement.textContent = quotes[randomNumber(0, quotes.length)]
 })
